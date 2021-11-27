@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0.125rem 0.25rem  rgba(0, 0, 0, 0.075);
+    .logo{
+        img{
+            width: 100px;
+            height: 70px;
+        }
+    }
+
+    .dropdown {
+        #PaymentSecurity {
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: 700;
+        }
+    }
+
+    }
+.container {
+    padding: 50px 20px;
+    h3 {
+        color: #e21224;
+        font-family: "Poppins", sans-serif;
+        font-weight: 1000;
+    }
+
+    .para {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        
+    }
+    .image-box{
+        width: 400px!important;
+        height: 400px!important;
+        padding-top: 70px;
+
+    }
+}
+
+@media  (max-width:437px)  {
+    header{
+        padding: 10px 5px;
+        .logo{
+            img{
+                width: 80px;
+                height: 60px;
+            }
+        } 
+    }
+        .dropdown {
+            #PaymentSecurity {
+                padding: 5px;
+                border-radius: 5px;
+                font-weight: 700;
+                font-size: 10px;
+            }
+        }
+    }
+
+//     }
+//     .container {
+//         padding: 20px 20px;
+//         h3 {
+//             color: #e21224;
+//             font-family: "Poppins", sans-serif;
+//             font-weight: 800;
+//         }
+    
+//         .para {
+//             font-family: "Poppins", sans-serif;
+//             font-weight: 700;
+//             line-height: 25px;
+//             letter-spacing: 0em;
+//             font-size: 12px;
+//         }
+
+//         .image-box{
+//             width: 300px!important;
+//             height: 200px!important;
+//             padding-top: 10px!important;
+//         }
+//     }
+    
+// }
+
+// @media (max-width:990px){
+//     h3{
+//         display: none;
+//     }
+//     #rev{
+//         flex-direction: column-reverse;
+//     }
+
+//     .para{
+//         justify-content: center;
+//     }
+// }
+// @media (max-width:575px){
+//     #rev{
+//         flex-direction:column;
+//     }

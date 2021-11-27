@@ -1,0 +1,23 @@
+<header>
+  <div class="logo">
+    <img src="assets\jusbidlogo.png" alt="">
+  </div>
+  <div class="dropdown">
+    <select name="selectedCorp"  id="PaymentSecurity" (change)="selectOption($event.target)">
+      <option default id="PaymentSecurity">Payment Security</option>
+      <hr>
+      <option value="Contact Us" id="PaymentSecurity">Contact Us</option>
+      <hr>
+      <option value="Privacy policy" id="PaymentSecurity">Privacy policy</option>
+      <hr>
+      <option value="User Agreement" id="PaymentSecurity">User Agreement</option>
+      <hr>
+      <option value="Terms of Service" id="PaymentSecurity">Terms of Service</option>
+      <hr>
+      <option value="Make a Payment" id="PaymentSecurity">Make a Payment</option>
+      <hr>
+      <option value="CSR Policy" id="PaymentSecurity">CSR Policy</option>
+    </select>
+  </div>
+</header>
+<router-outlet></router-outlet>

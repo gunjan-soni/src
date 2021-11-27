@@ -1,0 +1,335 @@
+.contact-form {
+    height: 900px;
+    background-color: white;
+    overflow-x: hidden;
+    margin-top: 20px;
+    .col-sm-11 {
+        .sub-page {
+            margin: 5vmax;
+            height: 80vh;
+            width: 40vw;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            h1 {
+                padding-top: 50px;
+                text-align: center;
+            }
+
+            .boxes {
+                margin: 30px;
+                form {
+                    justify-content: space-between;
+                    input {
+                        height: 70px;
+                        width: 100%;
+                    }
+
+                    .Email {
+                        margin-top: 20px;
+                    }
+                    .Message {
+                        margin-top: 20px;
+                    }
+                    .Additional_Details {
+                        margin-top: 10px;
+                        input {
+                            height: 100px;
+                        }
+                    }
+                    .send-message {
+                        padding-top: 3.5vmax;
+                        text-align: center;
+                        max-width: 300vw;
+                        button {
+                            width: 30vw;
+                            height: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .content {
+        padding-left: 100px;
+        h1 {
+            margin-top: 230px;
+            font-size: 2vw;
+        }
+        p {
+            font-size: 1.2vw;
+            max-width: 700px;
+        }
+        .demo {
+            padding-top: 20px;
+            h4 {
+                font-size: 1.3vw;
+            }
+
+            p {
+                font-size: 1vw;
+                color: gray;
+            }
+            hr {
+                max-width: 35vw;
+            }
+        }
+    }
+}
+
+@media (min-width: 2560px) {
+    .contact-form {
+        .row {
+            .col-lg-6 {
+                .sub-page {
+                    height: 70vh;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1650px) {
+    .contact-form {
+        .row {
+            .col-lg-6 {
+                .sub-page {
+                    height: 90vh;
+                }
+            }
+        }
+        .content{
+            padding-right: 20px;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .contact-form {
+        .row {
+            .col-lg-6 {
+                .sub-page {
+                    height: 90vh;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .contact-form {
+        .row {
+            flex-direction: column;
+            .col-md-10 {
+                .sub-page {
+                    width: 90vw;
+                    height: 100vh;
+                    .boxes {
+                        form {
+                            button {
+                                width: 70vw;
+                            }
+                            .last-col {
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .content {
+        margin-top: -10vh;
+        padding-left: 55px !important;
+        h1 {
+            margin-top: 160px !important;
+            font-size: 4vw !important;
+        }
+        p {
+            font-size: 2vw !important;
+            max-width: 700px;
+        }
+        .demo {
+            padding-top: 20px;
+            h4 {
+                font-size: 2vw !important;
+            }
+
+            p {
+                font-size: 1vw;
+                color: gray;
+            }
+        }
+    }
+}
+
+@media (max-width: 790px) {
+    .contact-form {
+        .row {
+            .col-sm-11 {
+                .sub-page {
+                    margin: 4.5vmax;
+                }
+            }
+        }
+    }
+
+    .content {
+        padding-left: 50px !important;
+        h1 {
+            margin-top: 160px !important;
+            font-size: 4vw !important;
+        }
+        p {
+            font-size: 2vw !important;
+            max-width: 700px;
+        }
+        .demo {
+            padding-top: 20px;
+            h4 {
+                font-size: 2vw !important;
+            }
+
+            p {
+                font-size: 1vw;
+                color: gray;
+            }
+            hr {
+                max-width: 75vw !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 720px) {
+    .contact-form {
+        .row {
+            .col-sm-11 {
+                .sub-page {
+                    height: 100vh;
+                    width: 90vw;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 525px) {
+    .contact-form {
+        .row {
+            .col-xs-11 {
+                .sub-page {
+                    margin: 2.8vmax;
+                }
+            }
+        }
+    }
+    .content {
+        padding-left: 30px !important;
+        h1 {
+            margin-top: 160px !important;
+            font-size: 4vw !important;
+        }
+        p {
+            font-size: 2vw !important;
+            max-width: 700px;
+        }
+        .demo {
+            padding-top: 20px;
+            h4 {
+                font-size: 2vw !important;
+            }
+
+            p {
+                font-size: 1vw;
+                color: gray;
+            }
+            hr {
+                max-width: 75vw !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-form {
+        .row {
+            .col-xs-11 {
+                .sub-page {
+                    height: 100vh;
+                    width: 100vw;
+                    margin: 0%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-form {
+        .row {
+            .col-xs-11 {
+                .sub-page {
+                    height: 100vh;
+                    width: 100vw;
+                    margin: 0%;
+                    .boxes {
+                        form {
+                            .send-message {
+                                max-width: 400vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .contact-form {
+        .row {
+            .col-xs-11 {
+                .sub-page {
+                    height: 100vh;
+                    // margin: 2.5vmax;
+                    width: 100vw;
+                    form {
+                        .send-message {
+                            button {
+                                width: 40vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .content {
+        padding-left: 30px !important;
+        h1 {
+            margin-top: 160px !important;
+            font-size: 5vw !important;
+        }
+        p {
+            font-size: 3vw !important;
+            max-width: 700px;
+        }
+        .demo {
+            h4 {
+                font-size: 4vw !important;
+            }
+
+            p {
+                font-size: 1vw;
+                color: gray;
+            }
+
+            hr {
+                max-width: 75vw !important;
+            }
+        }
+    }
+}
